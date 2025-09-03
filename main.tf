@@ -1,3 +1,4 @@
+
 resource "aws_instance" "terraform_Dev_server" {
   tags = {
     Name = "Terraform_dev_server"
